@@ -1,5 +1,8 @@
 package com.example.demo;
 
+import com.example.demo.enums.NivelDeAcesso;
+import com.example.demo.enums.Sexo;
+
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
@@ -16,4 +19,11 @@ public class Usuario {
     String nome;
     String sobrenome;
     Integer idade;
+    String email;
+    String dataDeNascimento;
+    Sexo sexo;
+    String cpf;
+    String ddd;
+    String telefone;
+    NivelDeAcesso nivelDeAcesso; 
 }
